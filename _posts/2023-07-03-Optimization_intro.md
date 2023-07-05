@@ -41,7 +41,7 @@ use_math: true
   
   
   
-  $f(t) = \begin{cases} 0\quad t \in Q\\ 1\quad t \notin Q \end{cases}$
+  $f(t) = \begin{cases} 0\quad t \in Q\newline 1\quad t \notin Q \end{cases}$
   
   
   
