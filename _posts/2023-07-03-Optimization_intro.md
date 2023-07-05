@@ -157,6 +157,3 @@ $m(Q^c) = 1$
 - column vector $x = \begin{bmatrix}x_1\\x_2\\\vdots\\x_n\end{bmatrix}$ = row vectors $x = \begin{bmatrix}x_1 & x_2 & \cdots & x_n\end{bmatrix}$.
 
 But, in matrix multiplication, column vectors are used for convenience.
-
-
-
