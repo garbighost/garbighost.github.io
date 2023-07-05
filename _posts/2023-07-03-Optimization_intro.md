@@ -134,27 +134,27 @@ $m(Q^c) = 1$
 
 #### Sets
 
-disjoint : Two sets are disjoint if their intersection is empty
+- disjoint : Two sets are disjoint if their intersection is empty
 
-$S\in T$ : 뜻 - **E**lement in
+- $S\in T$ : 뜻 - **E**lement in
 
-$S \subset T$ : 뜻 - **C**ontained
+- $S \subset T$ : 뜻 - **C**ontained
 
 
 
-The least upper bound or supremum ($sup\{x:x \in S\}$) 
+- The least upper bound or supremum ($sup\{x:x \in S\}$) 
 
 <img src="/images/2023-07-03-Optimization_intro/image-20230705135537753.png" alt="image-20230705135537753" style="zoom:50%;" />
 
 
 
-The greatest lower bound or infimum ($inf\{x:x\in S\}$) $\fallingdotseq$ supremum
+- The greatest lower bound or infimum ($inf\{x:x\in S\}$) $\fallingdotseq$ supremum
 
 
 
 #### Matrices and Vectors
 
-column vector $x = \begin{bmatrix}x_1\\x_2\\\vdots\\x_n\end{bmatrix}$ = row vectors $x = \begin{bmatrix}x_1 & x_2 & \cdots & x_n\end{bmatrix}$
+- column vector $x = \begin{bmatrix}x_1\\x_2\\\vdots\\x_n\end{bmatrix}$ = row vectors $x = \begin{bmatrix}x_1 & x_2 & \cdots & x_n\end{bmatrix}$
 
 But, in matrix multiplication, column vectors are used for convenience.
 
