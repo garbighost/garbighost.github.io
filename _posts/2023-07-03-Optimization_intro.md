@@ -37,7 +37,7 @@ use_math: true
   
   $유리수 = \frac{자연수}{자연수}$ : 2차원의 자연수
   
-  ![image-20230703120708441](/images/2023-07-03-Optimization_intro/image-20230703120708441.png)
+  <img src="/images/2023-07-03-Optimization_intro/image-20230703120708441.png" alt="image-20230703120708441" style="zoom:50%;" />
   
   
   
