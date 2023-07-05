@@ -43,6 +43,8 @@ use_math: true
   
   $f(t) = \begin{cases} 0\quad t \in Q\\ 1\quad t \notin Q \end{cases}$
   
+  
+  
   $Q$ : 유리수
   
   $t \in Q$ : countable (countably many)
