@@ -118,7 +118,7 @@ use_math: true
 
 $\epsilon$ : arbitrary positive = 임의의 길이
 
-$m(Q) < \epsilon \cdot \sum_{n+1}^{\infin}{(\frac{1}{2^{n-1}})} = 2\epsilon$ (아무리 $\epsilon$을 작게 선택하여도, 점(유리수)는 커버한다.)
+$m(Q) < \epsilon \cdot \sum_{n+1}^{\infty}{(\frac{1}{2^{n-1}})} = 2\epsilon$ (아무리 $\epsilon$을 작게 선택하여도, 점(유리수)는 커버한다.)
 
 $m(Q)=0$ ($\epsilon$은 arbitrary positive 이므로 $2\epsilon$ 보다 작으려면 0 이어야 한다.)
 
