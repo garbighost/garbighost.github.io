@@ -2,7 +2,7 @@
 layout: single
 title:  "Optimization Intro"
 typora-root-url: ../
-
+use_math: true
 ---
 
 # Terminology Description
