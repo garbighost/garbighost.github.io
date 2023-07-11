@@ -2,6 +2,7 @@
 layout: single
 title:  "Kinematics 1"
 typora-root-url: ../
+use_math: true
 ---
 
 # Kinematics of Rigid Bodies
