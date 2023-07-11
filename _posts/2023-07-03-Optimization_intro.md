@@ -85,7 +85,7 @@ use_math: true
   
   $\Delta \times$길이 = 넓이 가 된다.
   
-  길이 =size of $I$= $1 \times$ size of $Q^c + 0 \times$size of $Q$  
+  길이 =size of $I$= size of $Q^c$ + size of $Q$ 
   
   $m(I)$ : measure of $I$
   
@@ -98,6 +98,8 @@ use_math: true
   
   
   유리수 구간만의 적분과 무리수 구간만의 적분이 궁금하니, 계산해보자.
+  
+  $\int_I{f(t)} = $1 x size of $Q^c$ + 0 x size of $Q$ = 1 x $m(Q^c)$ + 0 x $m(Q)$  = 1
   
   $m(Q)$를 계산 하기 위해 첫번째, 두번째, n번째 유리수를 생각해보자.
   
@@ -118,7 +120,7 @@ use_math: true
 
 $\epsilon$ : arbitrary positive = 임의의 길이
 
-$m(Q) < \epsilon \cdot \sum_{n+1}^{\infty}{(\frac{1}{2^{n-1}})} = 2\epsilon$ (아무리 $\epsilon$을 작게 선택하여도, 점(유리수)는 커버한다.)
+$m(Q) < \epsilon \cdot \sum_{n=1}^{\infty}{(\frac{1}{2^{n-1}})} = 2\epsilon$ (아무리 $\epsilon$을 작게 선택하여도, 점(유리수)는 커버한다.)
 
 $m(Q)=0$ ($\epsilon$은 arbitrary positive 이므로 $2\epsilon$ 보다 작으려면 0 이어야 한다.)
 
