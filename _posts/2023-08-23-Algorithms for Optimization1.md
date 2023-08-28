@@ -71,4 +71,8 @@ use_math: true
 
 
 - Conditions of local minima (Multivariate : 변수 여러개)
-  1. $$
+  1. $\nabla f(x) = 0$, the first-order necessary condition (FONC)
+  
+  2. $\nabla^2 f(x)$ is positive semidefinite (SONC)
+  
+     -- $\nabla^2 f(x)$ is positive definite, the second-order sufficient condition (SOSC)
