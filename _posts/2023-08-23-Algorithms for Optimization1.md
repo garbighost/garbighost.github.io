@@ -54,9 +54,21 @@ use_math: true
 
   <img src="/images/2023-08-23-Algorithms for Optimization1/image-20230825092251801.png" alt="image-20230825092251801" style="zoom: 33%;" />
 
-- Conditions of local minima
+- Conditions of local minima (Univariate : 변수 1 개)
 
   - Strong local minima
     1. $f(x^*) = 0$
-    
-    2. $f''(x^*) > 0
+    2. $f''(x^*) > 0$
+
+  - Conditions of local minima
+  
+    1. $f'(x^*) = 0$, the first-order necessary condition (FONC)
+  
+    2. $f''(x^*) \geq 0$, the second-order necessary condition (SONC)
+  
+       -- $f''(x^*) > 0$ 는 the second-order sufficient condition (SOSC) 라고 부른다.
+
+
+
+- Conditions of local minima (Multivariate : 변수 여러개)
+  1. \
