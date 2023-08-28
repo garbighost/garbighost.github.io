@@ -71,4 +71,4 @@ use_math: true
 
 
 - Conditions of local minima (Multivariate : 변수 여러개)
-  1. \
+  1. $$
