@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Optimization Intro"
+title:  "Algorithms for Optimization 1"
 typora-root-url: ../
 use_math: true
 

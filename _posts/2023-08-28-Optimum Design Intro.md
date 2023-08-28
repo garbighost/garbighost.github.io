@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Optimization Intro"
+title:  "Optimum Design Intro"
 typora-root-url: ../
 use_math: true
 ---
