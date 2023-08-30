@@ -73,9 +73,24 @@ use_math: true
     $\delta = L-L_0$ : elongation
 
     $L$ : deformed length
-
-
-    미소 진병형률 은 추가할 것
+  
+  -  nominal strain 과 true stain의 관계
+  
+    미소진변형률 (derivative true strain) : $d\bar{e} = \frac{dL}{L}$
+  
+    이 derivative true strain($d\bar{e}$)을 길이가 변화한 전체 구간에 대해 적분해보자.
+  
+    $\begin{align*}
+    \bar{\epsilon} &= \int^L_{L_0}{\frac{dL}{L}}\\
+    &=[\ln{L}]^L_{L_0}\\
+    &= \ln{{\frac{L}{L_0}}}\\
+    &= \ln{\frac{L_0 + \delta}{L_0}}\\
+    & = \ln{\left(1 + \frac{\delta}{L_0}\right)}\\
+    & = ln{(1+\epsilon)}\end{align*}$
+  
+  - $\bar{\epsilon} = \ln(1 + \epsilon)$
+  
+    
 
 #### Reference
 
