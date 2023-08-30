@@ -97,14 +97,32 @@ Cost of metal sheet : $ \$0.008/cm^2$
     1.  $p < n$ : the optimal solution is possible
     2.  $p =n$ : no optimal solution is necessary
     3.  $p > n$ : no solution ( redundant constraints should be deleted)
-    
+  
      
   
-  - $f(x), \; g_i(x), h_j(x)$
+  - $f(x), \; g_i(x), h_j(x)$ are linear
+  
+    $\rightarrow$ Linear programming (LP)
+  
+  - Any of $f(x), g_i(x), h_j(x)$ is nonlinear
+  
+    $\rightarrow$ Nonlinear programming problem (NLP)
+  
+    &#42; programming 번역 뜻 : 계획법, (코딩 x)
   
   
   
+  - Feasible Set
   
+    $S = (x | h_j(x)=0, \; g_i(x) \leq 0)$
+  
+  
+
+Ch 3. G
+
+
+
+
 
 
 
