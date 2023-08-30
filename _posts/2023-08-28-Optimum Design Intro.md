@@ -118,13 +118,62 @@ Cost of metal sheet : $ \$0.008/cm^2$
   
   
 
-Ch 3. G
+Ch 3. Graphical Solution Method
+
+-  eg. profit maximization problem
+
+  1.  A company manufactures 2 machines A and B
+
+  2. 28A or 14B can be manufactured daily
+
+  3. 14A or 24B can be sold daily
+
+  4. 16 machines can be handled daily
+
+  5. \$400 profit / A , \$600 profit / B
+
+     
+
+  - How many A and B machines should be the company manufacture everyday 
+
+    to maximize its profit?
+
+  
+
+  - Mathematical formulation (this is not 'standard design optimization model')
+
+
+    manufacturing constraint : $\frac{A}{28} + \frac{B}{14} \leq 1$
+
+    sales constraint : $\frac{A}{14} + \frac{B}{24} \leq 1$
+
+    shipping and handling constraint : $A+B\leq16$
+
+    non-negative constraint : $A \geq 0,\; B\geq 0$
+
+
+    profit P = $400 A + 600 B$
+
+    <img src="/images/2023-08-28-Optimum Design Intro/abc.png" alt="abc" style="zoom: 33%;" />
+
+  - Standard design optimization model
+
+    $\underset{x}{minimize} \quad f(x)$   subject to   $g_i(x) \leq 0, \; i = 1,2, \cdots, 5$
+
+    design variable :    $x = {x_1, x_2}$
+
+    objective function :    $f(x) = -p = -400x_1 -600x_2$
+
+    inequality constraints :
+
+    - $g_1(x) = \frac{x_1}{28} + \frac{x_2}{14} - 1\leq 0$
+    - $g_2(x) = \frac{x_1}{14} + \frac{x_2}{28} - 1 \leq 0$
+    - $g_3(x) = x_1 + x_2 -16 \leq 0$
+    - $g_4(x) = -x_1 \leq 0$
+    - $g_5(x) = -x_2 \leq 0$
+
+<img src="/images/2023-08-28-Optimum Design Intro/2.png" alt="2" style="zoom:33%;" />
 
 
 
-
-
-
-
-
-
+<img src="/images/2023-08-28-Optimum Design Intro/3.png" alt="3" style="zoom: 33%;" />
