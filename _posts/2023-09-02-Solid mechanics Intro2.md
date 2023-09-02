@@ -39,6 +39,8 @@ use_math: true
     - Frame : multi axial loading
     - Beam : Forces at various points
     - Cable : withstand only tension
+      <img src="/images/2023-09-02-Solid mechanics Intro2/6 2023-09-02 07_21_47.png" alt="6 2023-09-02 07_21_47" style="zoom: 33%;" />
 
-<img src="/images/2023-09-02-Solid mechanics Intro2/6 2023-09-02 07_21_47.png" alt="6 2023-09-02 07_21_47" style="zoom: 33%;" />
+  - FBD 그리는 법 pdf
+    http://contents.kocw.net/KOCW/document/2015/kumoh/ohchungseok/5.pdf
 
