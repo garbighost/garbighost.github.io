@@ -83,10 +83,10 @@ use_math: true
     $\begin{align*}
     \bar{\epsilon} &= \int^L_{L_0}{\frac{dL}{L}}\\
     &=[\ln{L}]^L_{L_0}\\
-    &= \ln{{\frac{L}{L_0}}}\\
+    &= \ln{\frac{L}{L_0}}\\
     &= \ln{\frac{L_0 + \delta}{L_0}}\\
     & = \ln{\left(1 + \frac{\delta}{L_0}\right)}\\
-    & = ln{(1+\epsilon)}\end{align*}$
+    & = \ln{(1+\epsilon)}\end{align*}$
   
   - $\bar{\epsilon} = \ln(1 + \epsilon)$
   
