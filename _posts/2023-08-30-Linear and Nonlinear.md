@@ -24,8 +24,8 @@ use_math: true
 - Non-linear
 
   함수 $f$가 **Additivity**, **Homogeneity** 를 둘 다 만족하지 않는 경우
-
-
+  
+  
 
 #### Reference
 
