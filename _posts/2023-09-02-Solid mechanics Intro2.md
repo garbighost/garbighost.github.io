@@ -29,5 +29,16 @@ use_math: true
                                            with meeting the requirement defined as constraint
                                            e.g. 
                                                       Minimize  cost
-                                                      Subject to $\sigma$
+                                                      Subject to $\sigma_{max} \leq \sigma_{allowalbe}$
+
+
+
+- Review of solid mechanics under various loading
+  - long, straight, slender members used to support mechanical load.
+    - Truss : only axial loading
+    - Frame : multi axial loading
+    - Beam : Forces at various points
+    - Cable : withstand only tension
+
+<img src="/images/2023-09-02-Solid mechanics Intro2/6 2023-09-02 07_21_47.png" alt="6 2023-09-02 07_21_47" style="zoom: 33%;" />
 
