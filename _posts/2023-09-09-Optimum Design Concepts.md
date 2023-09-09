@@ -52,5 +52,5 @@ use_math: true
 
   
 
-  - Gradient vector (Partial derivative of a function)
+  - Gradient vector (Partial derivative of a function) AAA
 
