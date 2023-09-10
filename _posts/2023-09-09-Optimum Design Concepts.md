@@ -46,7 +46,7 @@ use_math: true
 
     open set : $S = \{x \mid |x| < 1\}$
 
-    Bounded Set : for $x \in S,\; x^Tx \leq \infin$
+    Bounded Set : for $x \in S,\; x^Tx \leq \infty$
 
     Compact Set : closed and bounded
 
@@ -74,5 +74,85 @@ use_math: true
   
   - Taylor's expansion
     1. single variable x
-       $f(x) = f(x^*) + $ss
-
+       $f(x) = f(x^*) + \frac{df(x^*)}{dx}(x-x^*) + \frac{1}{2}\frac{d^2f(x^*)}{dx^2}(x-x^*)^2$
+       Let = $x-x^* = d$
+       $f(x^*+d) = f(x^*) + \frac{df(x^*)}{dx}d + \frac{1}{2}\frac{d^2f(x^*)}{dx^2}d^2+ \cdots$
+    
+    2. Two variables $x_1, x_2$
+    
+       $\begin{align*}
+       f(x_1^* + d_1, x_2^* + d_2) = &f(x_1^*, x_2^*) + \frac{\partial f}{\partial x_1}d_1 + \frac{\partial f}{\partial x_2}d_2\\
+       &+\frac{1}{2}\{\frac{\partial^2 f}{\partial x_1^2}d_1^2 + 
+       2\frac{\partial^2 f}{\partial x_1 \partial x_2}d_1d_2 +
+       \frac{\partial^2 f}{\partial x_2^2}d_2^2\}\\
+       &+ \cdots \end{align*}$
+       Using summation notation
+    
+       $= f(x_1^*, x_2^*) + \sum_{i=1}^{2} \frac{\partial f}{\partial x_i}d_id_j + \cdots$
+    
+       Using matrix notation
+    
+       $f(\vec{x^*} + \vec{d}) = f(\vec{x^*}) + (\vec{\nabla} f)^Td + \frac{1}{2}\vec{d^T}\vec{H}\vec{d} + \cdots$
+    
+       Let $\vartriangle f = f(\vec{x^*}+\vec{d}) - f(x^*)$
+    
+       $\vartriangle f = (\vec{\nabla} f)^T\vec{d} + \frac{1}{2}\vec{d}^T\vec{H}\vec{d} + \cdots$
+  
+  
+  
+  - Quadratic form (Q-form) and definite matrix
+  
+    1. Q-form
+       $f = \sum_{i=1}^n\sum_{j=1}^n P_{ij}x_ix_j = \vec{x}^T\vec{P}\vec{x}$
+  
+       e.g. 
+       $\begin{align*}f &=x_1^2 -6x_1x_2 + 9x_2^2\\
+       &= \{x_1,x_2\}\begin{bmatrix}
+       1&-3\\
+       -3&9\end{bmatrix}\begin{Bmatrix}
+       x_1\\
+       x_2\end{Bmatrix}\end{align*} = \vec{x}^T \vec{P}\vec{x}$
+  
+    2. Positive definiteness (P-D) of Q form
+       P - D if $f(\vec{x}) > 0$ for all non zero $\vec{x}$
+  
+       P - Semi D if $f(\vec{x}) \geq 0$ for all $\vec{x}$
+  
+       e.g. $f = \frac{1}{3} x^2$ : P - D
+       $f > 0 \quad for \; x \neq0$
+  
+       $f = 0 \quad iff \; x=0$
+       
+  
+       $f = \frac{1}{3}x_1^2 + \frac{3}{2}x_2^2$ : P - D
+  
+       $f > 0 \; for \; x_1 = x_2 \neq 0$
+  
+       $f = 0 \quad iff \; x_1 = x_2=0$
+  
+       Then, What is the P-D or P-semiD ?
+       $f = x_1^2 -2x_1x_2 + 2x_2^2$ (?) $\rightarrow$ P-semiD
+  
+       $f=x_1^2 -2x_1x_2 + x_2^2$ (?) $\rightarrow$ P-D
+  
+       
+  
+       How to check P-D of $x^T P x$ ?
+  
+       1. Check eigenvalues of P
+       2. Sylvecter's test (Using principal minors)
+  
+  
+       Q-form $f(x) = x^TAx$    -> (x에 대해 2차 함수)
+  
+       ​	$\Leftrightarrow$ P-D  if $f(x) > 0, x \neq 0$
+  
+       ​	$\Leftrightarrow$ eigenvalue $\lambda_i > 0$
+  
+       $Ax = \lambda x$
+  
+       $f(x) = x^T\lambda x = \{x_1, x_2\}
+       \begin{bmatrix}\lambda_1 & 0\\
+       0 & \lambda_2\end{bmatrix}\begin{Bmatrix}x_1 \\ x_2\end{Bmatrix} = \lambda_1x_1^2 + \lambda_2x_2^2 > 0 \Rightarrow (\lambda_1>0, \lambda_2 > 0)$
+  
+       
