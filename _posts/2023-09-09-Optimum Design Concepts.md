@@ -52,4 +52,27 @@ use_math: true
 
   
 
-  - Gradient vector (Partial derivative of a function) aaa
+  - Gradient vector (Partial derivative of a function)
+  
+    $\nabla f = \begin{bmatrix}
+    \frac{\partial f}{\partial x_1} \\
+    \frac{\partial f}{\partial x_2} \\ 
+    \vdots\\
+    \frac{\partial f}{\partial x_n}
+    \end{bmatrix}$
+  
+  - Hassian matrix (Second order partial derivative)
+  
+    $\nabla^2 = H = \begin{bmatrix}
+    \frac{\partial^2 f}{\partial x_1 \partial x_1} & \frac{\partial^2 f}{\partial x_1 \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n}\\
+    \frac{\partial^2 f}{\partial x_2 \partial x_1} & \frac{\partial^2 f}{\partial x_2 \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_2 \partial x_n}\\
+    \vdots\\
+    \frac{\partial^2 f}{\partial x_n \partial x_1} & \frac{\partial^2 f}{\partial x_n \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_n \partial x_n}
+    \end{bmatrix}$
+  
+    $H = H^T$ (symmetric matrix always)
+  
+  - Taylor's expansion
+    1. single variable x
+       $f(x) = f(x^*) + $
+
