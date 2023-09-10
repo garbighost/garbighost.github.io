@@ -17,7 +17,7 @@ use_math: true
 
 - Optimality condition for unconstrained problem (ch 4.4)
 
-  - Unconstrained problem
+  - ssUnconstrained problem
     minimize f(x) subject to no constraint on x
 
   - Definition for local minima
