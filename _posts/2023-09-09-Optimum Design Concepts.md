@@ -74,5 +74,5 @@ use_math: true
   
   - Taylor's expansion
     1. single variable x
-       $f(x) = f(x^*) + $
+       $f(x) = f(x^*) + $ss
 
