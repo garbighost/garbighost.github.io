@@ -29,12 +29,15 @@ use_math: true
 
     - Set S is closed $\Leftrightarrow a \leq x \leq b$ 
 
-    - Set S is bounded $\Leftrightarrow\; any\; x \in S,\; x^Tx < S$
+    - Set S is bounded $\Leftrightarrow\; any\; x \in S,\; x^Tx < c$
 
+      <img src="/images/2023-09-09-Optimum Design Concepts/09112 2023-09-10 16_25_15.png" alt="09112 2023-09-10 16_25_15" style="zoom: 33%;" />
       &#42; bounded concept : There is a subset S of a 2-dimensional real space $R^2$ constrained by
          tow parabolic curves $x^2 + 1$ and $x^2 - 1$ defined a Cartesian coordinate system is closed by the curves
-
+      
          but unbounded.
+      
+      <img src="/images/2023-09-09-Optimum Design Concepts/09113.png" alt="09113" style="zoom:50%;" />
 
 - Basic calculus concepts (ch4.2)
 
@@ -117,6 +120,8 @@ use_math: true
        P - D if $f(\vec{x}) > 0$ for all non zero $\vec{x}$
   
        P - Semi D if $f(\vec{x}) \geq 0$ for all $\vec{x}$
+  
+       <img src="/images/2023-09-09-Optimum Design Concepts/09114.png" alt="09114" style="zoom: 25%;" />
   
        e.g. $f = \frac{1}{3} x^2$ : P - D
        $f > 0 \quad for \; x \neq0$
