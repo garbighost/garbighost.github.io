@@ -34,32 +34,33 @@ use_math: true
 
 
        To hold (1), $f'(x^*) = 0$
-
+    
     2. Second order necessary condition : $f''(x) \geq 0$
        $\begin{align*} f(x) &= f(x^* + d)\\
        &= f(x^*) + f'(x^*)d + \frac{1}{2}f''(x^*)d^2 + R \rightarrow f'(x^*) = 0\\
        &\approx f(x^*) + \frac{1}{2}f''(x^*)d^2 \geq f(x^*)\; \cdots \; (2)\end{align*}$
        To hold (2), $f''(x^*) \geq 0$
-
+    
        3. sufficient condition : $f''(x^*) > 0$
           <img src="/images/2023-09-11-Optimum Design 0911/09115.png" alt="09115" style="zoom:33%;" />
           $f(x) \approx f(x^*) + \frac{1}{2}f''(x^*)d^2 > f(x^*)$
           If $f(x)$ is a convex function
           Local minimum = Global minimum
-
+    
           $\Rightarrow$ Durign actual numerical optimization, functions can be approximated as a convex function at every iteration step.
-
+    
           e.g. $\begin{align*}f(x) &= x^2 - 4x + 4\end{align*}$
-
+    
           (1) $f'(x) = 2x-4 =0 \rightarrow x^* + 2$
           (2) check $f''(x^*) > 0 \rightarrow f''(x^*)=2 > 0$
           From (1), (2) 	$x^* = 2 \Leftarrow $  strong local minimum
-
+    
           - Optimality condition for functions of multiple variables
             1. Necessary condition : $\nabla f(x^*) = 0$
             2. Sufficient condition : $d^THd > 0 \Leftrightarrow f : P-D$ 
 
   
+
 
   - The matrix H is P-D at the stationary point $x^*$
     $x^* = \{x_1^*, x_2^*, \cdots, x_n^*\}^T$

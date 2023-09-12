@@ -144,16 +144,16 @@ Ch 3. Graphical Solution Method
 
 
     manufacturing constraint : $\frac{A}{28} + \frac{B}{14} \leq 1$
-
+    
     sales constraint : $\frac{A}{14} + \frac{B}{24} \leq 1$
-
+    
     shipping and handling constraint : $A+B\leq16$
-
+    
     non-negative constraint : $A \geq 0,\; B\geq 0$
 
 
     profit P = $400 A + 600 B$
-
+    
     <img src="/images/2023-08-28-Optimum Design Intro/abc.png" alt="abc" style="zoom: 33%;" />
 
   - Standard design optimization model
