@@ -28,4 +28,9 @@ use_math: true
 
   
 
+- Principle of stationary potential energy
+  - Equilibrium is a stable position where total potential Energy $\pi$ is stationary.
+    <img src="/images/2023-09-11-Energy Method/image-20230913173306768.png" alt="image-20230913173306768" style="zoom: 33%;" />
   
+  - Necessary condition for equilibrium (stationary condition, i.e. local optimum)
+

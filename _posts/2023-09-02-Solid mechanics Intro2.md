@@ -52,9 +52,19 @@ use_math: true
 
   Axial stress $\sigma = \frac{P}{A}$
 
-  Axial strain $\epsilon = \frac{\sigma}{L}$
+  Axial strain $\epsilon = \frac{\delta}{L}$
 
-  Axial deformation $\sigma = \frac{PL}{AE}$
+  Axial deformation $\delta = \frac{PL}{AE}$ $(\delta = \epsilon L = \frac{\sigma L}{E} = \frac{PL}{EA})$
+
+  &#42; $\sigma = E \epsilon, \; E$ : young's modulus
+
+  &#42; $E$ : young's modulus, is modulus of elasticity, is a material property that describes its stiffness and ability
+
+  to deform elastically when subjected to an applied force. It is named after the British scientist Thomas Young.
+
+  $E$ is defined as the ratio of stress to strain $(E = \frac{\sigma}{\epsilon})$
+
+  <img src="/images/2023-09-02-Solid mechanics Intro2/IMG_0374 2023-09-24 10_25_04.jpg" alt="IMG_0374 2023-09-24 10_25_04" style="zoom:50%;" />
 
   
 
@@ -62,12 +72,22 @@ use_math: true
 
   <img src="/images/2023-09-02-Solid mechanics Intro2/노트 2023. 8. 30. (2) 2023-09-04 04_38_43.png" alt="노트 2023. 8. 30. (2) 2023-09-04 04_38_43" style="zoom:33%;" />
 
-  shear stress $\tau = \frac{VQ}{IT}$
+  Beam shear stress $\tau = \frac{VQ}{IT}$
 
-  &#42; Q : first moment above the point (first moment of area) 
+  &#42; General shear stress $\tau = \frac{F}{A}$ 
+
+  &#42; Q : first moment above the point (first moment of area) 단면 일차 모멘트
   &#42; $I$ : moment of Inertia
 
-  &#42; t : width
+  &#42; t : width (thickness)
+
+  
+
+  &#42; pure shear stress $\tau = \gamma G$
+
+  &#42; $G = \frac{E}{2(1 + \nu)}$ 	$\nu : poisson's\; ratio$
+
+  &#42;&#42; pure shear stress : stress in which forces of equal magnitude act in opposite directions parallel to a plane within a material
 
   
 
@@ -80,7 +100,7 @@ use_math: true
 
   - Euler-Bernoulli beam
 
-    $\frac{Mx}{Ix} = \frac{\sigma_{zz}}{y} = \frac{E}{R} = -E \frac{d^2 u_y}{dz^2}$
+    $\frac{M_x}{I_x} = \frac{\sigma_{zz}}{y} = \frac{E}{R} = -E \frac{d^2 u_y}{dz^2}$
 
     &#42; R : radius of curvature
 
