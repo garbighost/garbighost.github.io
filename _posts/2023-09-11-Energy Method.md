@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Energy Method"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

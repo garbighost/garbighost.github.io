@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "What is the Functional"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

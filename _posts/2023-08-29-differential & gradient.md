@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "differential & gradient terminology description"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

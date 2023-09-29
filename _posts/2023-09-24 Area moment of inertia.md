@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "What is the Area moment of inertia"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

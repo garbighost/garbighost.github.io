@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Kinematics 1"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

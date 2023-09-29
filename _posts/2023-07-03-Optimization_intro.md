@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Optimization Intro"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

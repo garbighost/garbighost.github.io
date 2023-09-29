@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Algorithms for Optimization 1"
+categories: study
 typora-root-url: ../
 use_math: true
 

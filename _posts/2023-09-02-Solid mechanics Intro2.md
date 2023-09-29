@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Solid mechanics Intro2"
+categories: study
 typora-root-url: ../
 use_math: true
 ---

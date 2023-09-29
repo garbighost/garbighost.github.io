@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Belt Design"
+categories: study
 typora-root-url: ../
 use_math: true
 ---
