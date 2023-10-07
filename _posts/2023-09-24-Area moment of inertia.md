@@ -26,4 +26,4 @@ use_math: true
   $M$(moment) : moment of force, $M = F\times distance$
   $I$ : mass moment of inertia, $I = mass \times distance^2$
   $I$ : Area moment of inertia, $I = Area \times distnance^2$
-  &#42; moment meaning: $\times distance$
+  &#42; moment meaning: "$\times $distance"

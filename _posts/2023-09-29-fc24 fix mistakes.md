@@ -36,3 +36,4 @@ use_math: false
   - midfield, 수비진영에서 드리블 하지말고, 
   - 수비수 선수의 playstyle : block 있으면 좋다.
   - 공격수 선수의 playstyle : jockey 있으면 좋다.  
+
