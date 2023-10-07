@@ -3,7 +3,7 @@ layout: single
 title:  "Fc24 fix mistakes in my attack"
 categories: game
 typora-root-url: ../
-use_math: false
+use_math: ture
 ---
 
 - sprinting(R2 button) 막누르지 말기
