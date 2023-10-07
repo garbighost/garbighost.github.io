@@ -35,6 +35,4 @@ use_math: false
   - 태클을 하지 않고, 패스길만 막는다.
   - midfield, 수비진영에서 드리블 하지말고, 
   - 수비수 선수의 playstyle : block 있으면 좋다.
-  - 공격수 선수의 playstyle : jockey 있으면 좋다. a
-
-  
+  - 공격수 선수의 playstyle : jockey 있으면 좋다.  
