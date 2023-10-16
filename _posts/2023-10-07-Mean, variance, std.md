@@ -12,23 +12,31 @@ use_math: true
   Variance : 변량들이 퍼저있는 정도
   Standard deviation : 쉽게 팔하면 mean에 대한 오차 / 평균으로 부터 원래 데이터에 대한 오차범위의 근사값
   deviation : is a measure of difference between the observed value of a variable and some other value(mean)
-  
+
   deviation은 관측값(observed value)에서 mean을 뺀 값, +도 될 수 있고, -도 될 수 있다.
-  
+
   e.g. $m+1, m-2, m+3, m-4$ 
   평균값이 m 인, 4개의 데이터가 있다. 
-  
+
   sum of deviations : $1+2+3+4 = 10$ 되어야 하지만, 실제값이 $-2, -4$ 가 있기 때문에, (observed value - mean)을 합한 값으로 계산해보면 $1-2+3-4 = -2$로 엉뚱한 값이 나온다.
   그래서 이 음수를 양수화해야하는데, 그러한 방법중의 하나가 제곱이다.
-  
+
   편차들을 합하기전에 제곱을 합하면 $1+4+9+16$이 된다. 이것이 바로 Variance로 "편차의 제곱의 합"이다.
-  
+
   그렇다면 Variance를 바로 쓰지 않고, Standard deviation을 구하는 이유는?
-  
+
   분산은 편차에 제곱을 하여 계산을 하였기 때문에, 실제 값에서 너무 멀어져 있다. 그래서 실제 값으로 근접 시키기 위해서 제곱근(루트)를 씌워준다. 
-  
+
   분산에 루트를 씌운 것이 Standarddeviation 이며, 평균으로 부터 원래 데이터에 대한 오차범위의 근사값이다.
-  
+
+- What is the standard deviation 1, 2, 3, ...
+
+  통계학에서 68-95-99.7 rule은 normal distribution (정규분포)를 나타내는 규칙으로, empirical rule (경험적인 규칙)이라고도 한다. three-sigma rule 이라고도 하는데, 이때는 평균에서 양쪽으로 3 standard deviation의 범위에 거의 모든 값들(99.7%)이 들어간다는 것을 나타낸다.
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/1920px-Standard_deviation_diagram.svg.png" alt="undefined" style="zoom: 33%;" />
+
+  For an approximately [normal data set](https://en.wikipedia.org/wiki/Normal_distribution), the values within **one standard deviation** of the mean account for about **68%** of the set; while within **two standard deviations** account for about **95%**; and within **three standard deviations** account for about **99.7%**
+
   
 
 - 모집단과 표본의 개념
@@ -66,3 +74,6 @@ https://learnx.tistory.com/entry/%ED%86%B5%EA%B3%84%EC%9D%98-%EA%B8%B0%EC%B4%88%
 평균,표준편차,분산의 개념
 https://bcho.tistory.com/972
 
+
+68-95-99.7 rule - Wikipedia
+https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule
