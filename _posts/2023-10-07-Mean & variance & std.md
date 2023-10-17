@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Mean, variance std"
+title:  "Mean & variance & std"
 categories: study
 typora-root-url: ../
 use_math: true
