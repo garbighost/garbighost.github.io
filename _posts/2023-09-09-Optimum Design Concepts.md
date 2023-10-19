@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Optimum Design Concepts"
-categories: study
+categories: Optimal design class
 typora-root-url: ../
 use_math: true
 ---
@@ -149,17 +149,16 @@ use_math: true
        2. Sylvecter's test (Using principal minors)
   
   
-       Q-form $f(x) = x^TAx$    -> (x에 대해 2차 함수)
-      
-       ​	$\Leftrightarrow$ P-D  if $f(x) > 0, x \neq 0$
-      
-       ​	$\Leftrightarrow$ eigenvalue $\lambda_i > 0$
-      
-       $Ax = \lambda x$
-      
-       $f(x) = x^T\lambda x = \{x_1, x_2\}
-       \begin{bmatrix}\lambda_1 & 0\\
-       0 & \lambda_2\end{bmatrix}\begin{Bmatrix}x_1 \\ x_2\end{Bmatrix} = \lambda_1x_1^2 + \lambda_2x_2^2 > 0 \Rightarrow (\lambda_1>0, \lambda_2 > 0)$
+  
+    Q-form $f(x) = x^TAx$    -> (x에 대해 2차 함수)
+  
+  ​	$\Leftrightarrow$ P-D  if $f(x) > 0, x \neq 0$
+  
+  ​	$\Leftrightarrow$ eigenvalue $\lambda_i > 0$
+  ​    
+  $Ax = \lambda x$    
+  $f(x) = x^T\lambda x = \{x_1, x_2\}
+  \begin{bmatrix}\lambda_1 & 0\\
+  0 & \lambda_2\end{bmatrix}\begin{Bmatrix}x_1 \\ x_2\end{Bmatrix} = \lambda_1x_1^2 + \lambda_2x_2^2 > 0 \Rightarrow (\lambda_1>0, \lambda_2 > 0)$
   
   
-  ​     

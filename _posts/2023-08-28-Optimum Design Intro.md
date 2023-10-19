@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Optimum Design Intro"
-categories: study
+categories: Optimal design class
 typora-root-url: ../
 use_math: true
 ---

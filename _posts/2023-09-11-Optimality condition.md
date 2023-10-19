@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Optimum Design - Optimality condition"
-categories: study
+categories: Optimal design class
 typora-root-url: ../
 use_math: true
 ---
@@ -32,8 +32,6 @@ use_math: true
        $\begin{align*}f(x) &= f(x^* + d) \qquad \cdots\; d : small\; num\\
        &= f(x^*) + f'(x^*)d + \frac{1}{2}f''(x^*)d^2 + R\\
        &\approx f(x^*) + f'(x^*)d \geq f(x^*) \; \cdots\; (1)\end{align*}$
-
-
        To hold (1), $f'(x^*) = 0$
     
     2. Second order necessary condition : $f''(x) \geq 0$
@@ -42,9 +40,10 @@ use_math: true
        &\approx f(x^*) + \frac{1}{2}f''(x^*)d^2 \geq f(x^*)\; \cdots \; (2)\end{align*}$
        To hold (2), $f''(x^*) \geq 0$
     
-       3. sufficient condition : $f''(x^*) > 0$
+    3. sufficient condition : $f''(x^*) > 0$
           <img src="/images/2023-09-11-Optimum Design 0911/09115.png" alt="09115" style="zoom:33%;" />
-          $f(x) \approx f(x^*) + \frac{1}{2}f''(x^*)d^2 > f(x^*)$
+    
+          $f(x) \approx f(x^*) + \frac{1}{2}f''(x^*)d^2 > f(x^)$
           If $f(x)$ is a convex function
           Local minimum = Global minimum
     
@@ -59,8 +58,6 @@ use_math: true
           - Optimality condition for functions of multiple variables
             1. Necessary condition : $\nabla f(x^*) = 0$
             2. Sufficient condition : $d^THd > 0 \Leftrightarrow f : P-D$ 
-
-  
 
 
   - The matrix H is P-D at the stationary point $x^*$

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Energy Method"
+title:  "2nd order cartesian tensor"
 categories: study
 typora-root-url: ../
 use_math: true
