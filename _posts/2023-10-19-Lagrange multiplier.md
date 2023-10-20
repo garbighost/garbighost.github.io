@@ -17,15 +17,16 @@ use_math: true
     1. Graphical solution
        <img src="/images/2023-10-19-Lagrange multiplier/image-20231019133600701.png" alt="image-20231019133600701" style="zoom:50%;" />
     
-       - Regular point : a point  $$x^*$$ satisfying the constraints $$h(x^*) = 0$$
+       - Regular point : a point  $x^*$ 
+         satisfying the constraints $h(x^*) = 0$
          if
          (1) $f(x^*) :$ differentiable
          (2) $\underline{\nabla} h(x^*)$ : linearly independent => No gradient can be expressed with a combination  of other gradients if 
-    
+         
          ------
-    
+         
          $\sum_{k=1}^{m} \vec\alpha_k \vec{v}_k = 0, all\; \vec\alpha_k = 0$​
-    
+       
     2. Solving with the reduced objective function
        $x_2 = \phi(x_1) = -x_1 + 2$
        $\begin{align*}\underset{x}{minimize} \; f(x_1,x_2) = f(x_1, \phi(x_1)) &= (x_1 -1.5)^2 + (-x_1 + 2 -1.5)^2\\ &= 2(x_1 -1)^2 + 0.5 \end{align*}$
