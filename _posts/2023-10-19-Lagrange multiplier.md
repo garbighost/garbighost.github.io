@@ -185,3 +185,5 @@ use_math: true
        3. Feasibility check $S_j^2 \geq 0 (\Rightarrow g_j \leq 0)$
     
        4. Non-negativity check $u_j^* \geq 0$
+       
+       
