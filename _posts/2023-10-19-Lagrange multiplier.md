@@ -17,7 +17,7 @@ use_math: true
     1. Graphical solution
        <img src="/images/2023-10-19-Lagrange multiplier/image-20231019133600701.png" alt="image-20231019133600701" style="zoom:50%;" />
     
-       - Regular point : a point $x^*$ satisfying the constraints $h(x^*) = 0$
+       - Regular point : a point  $x^*$ satisfying the constraints $h(x^*) = 0$
          if
          (1) $f(x^*) :$ differentiable
          (2) $\underline{\nabla} h(x^*)$ : linearly independent => No gradient can be expressed with a combination  of other gradients if 
