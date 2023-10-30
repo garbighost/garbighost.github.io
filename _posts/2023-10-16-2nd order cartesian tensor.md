@@ -54,7 +54,7 @@ use_math: true
     $C$ : 4th order tensor
     $\epsilon$ : 2nd order tensor
 
-  - Unit dyad unit second order tensor
+  - Unit dyad or unit second order tensor
     $\vec{I} = \delta_{ij}\hat{e}_i\hat{e}_j = \hat{e}_i \hat{e}_i = \hat{e}_1\hat{e}_1+ \hat{e}_2\hat{e}_2 + \hat{e}_3\hat{e}_3$
     $= \begin{bmatrix}\hat{e}_1 \\ \hat{e}_2 \\ \hat{e}_3\end{bmatrix}^T \begin{bmatrix}1 & 0 & 0 \\ 0 & 1 & 0\\ 0 & 0 & 1\end{bmatrix} \begin{bmatrix}\hat{e}_1 \\ \hat{e}_2 \\ \hat{e}_3\end{bmatrix}$
 

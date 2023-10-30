@@ -181,7 +181,7 @@ use_math: true
           $\frac{\partial L}{\partial u_j} = 0 (\Rightarrow g_i(x^*) + S_j^2 = 0); \; j=1,\cdots,m$
     
        2. Switching conditions
-          $\frac{\partial L}{\partial S_j} = 0 (\Rightarrow 2u_j ^* S_j = 0)$                       * : 내적 일듯?
+          $\frac{\partial L}{\partial S_j} = 0 (\Rightarrow 2u_j ^* S_j = 0)$                       
     
        3. Feasibility check $S_j^2 \geq 0 (\Rightarrow g_j \leq 0)$
     
