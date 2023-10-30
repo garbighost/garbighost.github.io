@@ -29,7 +29,7 @@ use_math: true
 
   $\underset{x_1,x_2}{minimize} \quad f(x_1, x_2)$
 
-  $\begin{align*} subject\; to \quad &x_1 \geq 0\\ &x_2 \geq 0\\ & x_1 + x_2 \leq 1 \end{align*}$
+  $\begin{align*} subject\; to \quad &x_1 \geq 0\newline &x_2 \geq 0\newline & x_1 + x_2 \leq 1 \end{align*}$
 
   
 
