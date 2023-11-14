@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Lagrange multiplier"
-categories: Optimal design class
+categories: Optimal_design_class
 typora-root-url: ../
 use_math: true
 ---
