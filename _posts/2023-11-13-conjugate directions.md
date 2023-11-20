@@ -129,6 +129,12 @@ use_math: true
   
        $\vec x^1 = \vec x^0 + \alpha^0 d^0 = (1,1)^T + 0.1308(-2, -8)^T = \begin{pmatrix}0.7385 \\ -0.0462 \end{pmatrix}$
   
-       
+    Iteration 2
   
+    1. Search direction
     
+       $\vec d^1 = -\vec g^1 + \beta^0 \vec d^0$
+    
+       $\beta^0 = \frac{||\vec \nabla  f(\vec x^1) ||^2}{||\vec \nabla f(\vec x^0) ||^2} = \frac$
+    
+       
