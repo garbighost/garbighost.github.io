@@ -22,4 +22,6 @@ use_math: true
   
     $\eqalign{\vec x_0 = (0,3)^T, \; f(\vec x_0) = 52}$
   
-    $\vec x_0 = \vec{x}_0$
+    $\vec \nabla f = [4(x_1 -2)^3 + 2(x_1-2x_2), -4(x_1 - 2x_2)]^T$
+  
+    

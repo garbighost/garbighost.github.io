@@ -94,7 +94,7 @@ use_math: true
   
        else ($k \geq 1$), $\vec d^k = -\vec g^k + \beta^{k-1} \vec d^{k+1}$
   
-       where $\beta^{k-1} = \frac{+(\vec g^k)^T +\vec g^k}{+(\vec g^{k-1})^T+\vec g^{k-1}} = \frac{||\vec \nabla f(\vec x^k) ||^2}{||\vec \nabla f(\vec x^{k-1}) ||^2}$
+       where $\eqalign{\beta^{k-1} = \frac{+(\vec g^k)^T +\vec g^k}{+(\vec g^{k-1})^T+\vec g^{k-1}} = \frac{||\vec \nabla f(\vec x^k) ||^2}{||\vec \nabla f(\vec x^{k-1}) ||^2}}$
   
     3. 1D line search
   
