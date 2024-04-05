@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  " Cauchy stress tensor and Cauchy's formula"
-categories: Optimal_design_class
+categories: Advanced_Solid_mechanics
 typora-root-url: ../
 use_math: true
 ---

@@ -24,4 +24,17 @@ use_math: true
   
     $\vec \nabla f = [4(x_1 -2)^3 + 2(x_1-2x_2), -4(x_1 - 2x_2)]^T$
   
+    1. Direction of the steepest descent
+  
+       $\vec d_0 = -\vec \nabla f(\vec x_0) = (44, -24)^T \underset{\text{normalize}}{=} (0.8779, -0.4789)^T$
+  
+    2. $\alpha$ to minimize $f(\vec x_0 + \alpha \vec d_0); \;$1D line search
+  
+       $\alpha = 3.0841$
+  
+    3. Update the search point
+    
+       $\vec x_1 = \vec x_0 + \alpha \vec d_0 = (2.707, 1.523)^T$
+    
+       <img src="/images/2023-11-08-steep descent method/image-20231120233428624.png" alt="image-20231120233428624" style="zoom: 33%;" />
     

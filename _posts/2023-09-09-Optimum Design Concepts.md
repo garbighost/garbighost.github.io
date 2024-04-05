@@ -146,7 +146,7 @@ use_math: true
        How to check P-D of $x^T P x$ ?
   
        1. Check eigenvalues of P
-       2. Sylvecter's test (Using principal minors)
+       2. Sylvecter's test ( )
   
   
   

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Mohr's circle for stress transformation"
-categories: Optimal_design_class
+categories: Advanced_Solid_mechanics
 typora-root-url: ../
 use_math: true
 ---

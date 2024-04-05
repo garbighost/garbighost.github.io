@@ -6,19 +6,32 @@ typora-root-url: ../
 use_math: true
 ---
 
+- Conjugate gradient method (Ch 10.7)
+  
+  <img src="/images/2023-11-13-conjugate directions/image-20231120233632002.png" alt="image-20231120233632002" style="zoom: 50%;" />
+  
+  $d^k \text{랑} d^{k+1}$ 이 서루 수직이라는데서 착안하여서, 둘을 조합(linear combination)해서  최소점으로 바로가는 벡터를 만들 수 있지 않을까? $(a \vec d^k + b \vec d^{k+1}) \to$ conjugate direction
+  
+  conjugate gradient method $\Rightarrow$ Yields a minimum of f(x) with 'n' iterations, if $f(x)$ is a quadratic function of 'n' variables.
+  
+  e.g.) Require two iterations for convergence, when two design variables, $x_1$ and $x_2$ are used.
+  
+  $\Rightarrow$ Also works for general non-quadratic functions.
+  
 - Conjugate directions
+  
   Given : A : $n \times n$ positive definite symmetric matrix
   &#42; 실제 존재하는 것의 matrix는 symmetric matrix
   $d^j : $ conjugate direction, if $(\vec d^j)^T \vec A \vec d^i = 0 \; \text{for} \; i \neq j$
-
+  
   e.g.)  $\vec A$ : 3x3 symmetric matrix
-
+  
   ​	$\vec e_i$ : eigenvector of $\vec A (\vec e_i \vec A \vec e_j \triangleq \delta_{ij})$
-
+  
   ​	Then $e_1, e_2, e_3 : conjugate directions$
-
+  
   ​	$e_1 + e_2, e_1 - e_2, e_3$ : conjugate directions
-
+  
 - n iteration convergence
 
   Then minimum of a quadratic function of n variables is found in n iteration or less.
@@ -135,6 +148,6 @@ use_math: true
     
        $\vec d^1 = -\vec g^1 + \beta^0 \vec d^0$
     
-       $\beta^0 = \frac{||\vec \nabla  f(\vec x^1) ||^2}{||\vec \nabla f(\vec x^0) ||^2} = \frac$
+       $\beta^0 = \frac{||\vec \nabla  f(\vec x^1) ||^2}{||\vec \nabla f(\vec x^0) ||^2} = \frac{}{}$
     
        
