@@ -19,7 +19,7 @@ EMG
     - Hihg pass fitler : 5~30 Hz 컷 오프 추천
       : 보통 5~30 hz에서 artefact noize (살 떨림 등) 발생
 - Isometric / esentric? / consentric?
-  ㅁㅇㄴㄻㅇㄴ
+  공부하자
 
 
 
