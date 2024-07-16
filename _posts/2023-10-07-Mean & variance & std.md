@@ -10,7 +10,7 @@ use_math: true
   기초 개념
   Mean : 주어진 수의 합을 측정개수로 나눈 값, 대표값 중 하나
   Variance : 변량들이 퍼저있는 정도
-  Standard deviation : 쉽게 팔하면 mean에 대한 오차 / 평균으로 부터 원래 데이터에 대한 오차범위의 근사값
+  Standard deviation : 쉽게 말하면 mean에 대한 오차 / 평균으로 부터 원래 데이터에 대한 오차범위의 근사값
   deviation : is a measure of difference between the observed value of a variable and some other value(mean)
 
   deviation은 관측값(observed value)에서 mean을 뺀 값, +도 될 수 있고, -도 될 수 있다.
