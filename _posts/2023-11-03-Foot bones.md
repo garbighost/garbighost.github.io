@@ -15,6 +15,10 @@ typora-root-url: ../
 
 ![Interdisciplinary Research Interests: A Journey from Ankle Instability to  Concussions in Women's Soccer](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTreN2KyVmFfA3ZUPP_q226FnPWthgt2VZuQ&usqp=CAU)
 
+
+
+![image](/C:/Users/joe/Downloads/B9780323089449000113_f011-007-9780323089449.jpg)
+
 #### Reference
 
 [Figure, Foot Bones. Anatomy of the...\] - StatPearls - NCBI Bookshelf]
@@ -30,3 +34,6 @@ https://www.trialexhibitsinc.com/library/library-item/dorsiflexion-and-plantar-f
 
 Interdisciplinary Research Interests: A journey from Ankle Instability to Concussions in Women's Soccer
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fbpb-us-w2.wpmucdn.com%2Fsites.udel.edu%2Fdist%2Fd%2F3615%2Ffiles%2F2019%2F02%2FFoot-Ankle-Injuries-in-Athletics-Revised-2019-1ox1t6t.pdf&psig=AOvVaw3gR5x-lmho6TO6F1low8a5&ust=1699083132918000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJj1tYaop4IDFQAAAAAdAAAAABAb
+
+[Fundamental movements of the ankle and foot defined about the traditional axes of rotation]
+https://musculoskeletalkey.com/structure-and-function-of-the-ankle-and-foot/
