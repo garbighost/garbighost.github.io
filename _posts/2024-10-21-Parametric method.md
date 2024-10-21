@@ -79,6 +79,10 @@ ex
 
 
 
+
+
+
+
 #### Reference
 
 Parametric Vs. Non-parametric (모수적 Vs. 비모수적)
